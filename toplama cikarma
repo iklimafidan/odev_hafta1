@@ -1,5 +1,8 @@
+#kullanıcıdan 2 sayı iste
 sayi1=float(input("Bir sayi giriniz:"))
 sayi2=float(input("Bir sayı giriniz:"))
+
+#toplam ifadesinin ne olduğunu belirt ve print ile yazdır
 toplam=sayi1+sayi2
 print(toplam)
 
