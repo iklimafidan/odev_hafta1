@@ -1,5 +1,6 @@
-
+#kullanıcıdan sayı iste
 sayi = int(input("Bir sayı girin:"))
+#toplamın başlangıçta 0 olduğunu belirle ve yazdır
 toplam=0
 for i in range(1, sayi+1):
     toplam += i
