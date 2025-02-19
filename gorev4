@@ -1,6 +1,10 @@
- 
+#kullanıcıdan metin iste
 metin = input("Bir metin girin: ")
+
+#boş bir ters metin değişkeni oluştur
 ters_metin = ""
+
+#burdaki -1'ler sırasıyla: son karakteri,döngünün 0.karaktere kadar çalışması ve geriye doğru ilerlemek için adım büyüklüğünü
 for i in range(len(metin) - 1, -1, -1):
     ters_metin += metin[i]
 print(ters_metin)
