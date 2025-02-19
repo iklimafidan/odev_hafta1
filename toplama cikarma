@@ -1,0 +1,24 @@
+sayi1=float(input("Bir sayi giriniz:"))
+sayi2=float(input("Bir sayı giriniz:"))
+toplam=sayi1+sayi2
+print(toplam)
+
+
+fark=sayi1-sayi2
+print(fark)
+
+çarpım=sayi1*sayi2
+print(çarpım)
+
+
+bölüm=sayi1/sayi2
+print(bölüm)
+
+
+mod_sonucu = sayi1 % sayi2
+print(f"{sayi1} % {sayi2} = {mod_sonucu} ")
+
+
+üs_alma=sayi1**sayi2
+print(üs_alma)
+

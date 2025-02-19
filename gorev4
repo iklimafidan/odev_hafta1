@@ -1,0 +1,7 @@
+ 
+metin = input("Bir metin girin: ")
+ters_metin = ""
+for i in range(len(metin) - 1, -1, -1):
+    ters_metin += metin[i]
+print(ters_metin)
+ 
