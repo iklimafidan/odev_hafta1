@@ -1,4 +1,5 @@
-
+#for döngüsü kullanarak aralık belirle
 for i in range (2,101): 
+#çift sayının 2'ye bölündüğünde 0 kalanı vermesi şartını ekle ve yazdır
     if i % 2 == 0:
         print(i)
